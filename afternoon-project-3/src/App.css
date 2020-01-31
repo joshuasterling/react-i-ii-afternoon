@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+}
+
+.Header {
+  display: flex;
+  background-color: dodgerblue;
+  height: 9vh;
+  width: 100%;
+  color: black;
+  font-size: 30px;
+  font-family: 'Cambay', sans-serif;
+  font-weight: bold;
+  align-items: center;
+  padding-left: 80px;
+}
+
+.button1 {
+  border: none;
+  background-color: black;
+  color: white;
+  font-family: 'Cambay', sans-serif;
+  font-size: 35px;
+  margin-right: 530px;
+}
+
+.button2 {
+  border: none;
+  background-color: black;
+  color: white;
+  font-family: 'Cambay', sans-serif;
+  font-size: 35px;
+  margin-left: 530px;
+}
+
+.Card {
+  display: inline-block;
+  background-color: white;
+  height: 65vh;
+  width: 70%;
+  margin-top: 9vh;
+  color: black;
+  font-family: 'Cambay', sans-serif;
+  text-align: left;
+  font-weight: lighter;
+}
+
+.counter {
+  text-align: right;
+  margin-right: 50px;
+  font-size: 35px;
+  font-weight: bolder;
+  margin-top: 20px;
+}
+
+.names {
+  font-size: 60px;
+  text-decoration: underline;
+  text-decoration-color: dodgerblue;
+  margin-left: 100px;
+}
+
+.trio {
+  font-size: 25px;
+  margin-left: 100px;
+}
+
+.list {
+  margin-left: 100px;
+  font-size: 25px;
+}
